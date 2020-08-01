@@ -7,8 +7,8 @@ The last field present in json is beverages. It shows different beverages that c
 Tested with Python 3.6.6
 
 To run the code:
-  cd ***\/CoffeeMachine\/
-  python3 start_machine.py test_cases\/test1.json 30
+  cd CoffeeMachine/
+  python3 start_machine.py test_cases/test1.json 30
 
 The first argument is the path of input json file.
 The second argument is the time required by machine to brew the beverage after acquiring the ingredients.
