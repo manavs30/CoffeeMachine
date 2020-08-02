@@ -9,7 +9,7 @@ def main(json_file_path, time_for_making_beverage):
     my_thread_pool = ThreadPool(my_machine)
 
     while True:
-        print("Press n to get a new beverage. Press x to exit. Press g to get info about all items. Press a to add more quantity for items. Press b to get info about all beverages.")
+        print("Press n to get a new beverage. Press g to get info about all items. Press a to add more quantity for items. Press b to get info about all beverages. Press x to exit.")
         inp = input()
         if inp=="x":
             break
